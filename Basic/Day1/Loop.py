@@ -10,5 +10,5 @@ name="bangladesh"
 
 for letter in name:
     print(letter)
-for i in range(1,10,2):
+for i in range(13,39,2):
     print(i)
