@@ -1,1 +1,1 @@
-"someError"
+following Python code? 
