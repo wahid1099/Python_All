@@ -1,0 +1,31 @@
+
+    url = "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3chourly"
+
+    querystring = {"lat":"35.5","lon":"-78.5"}
+
+    headers = {
+        "X-RapidAPI-Key": "eaff54421emsh871e50103a3c10dp1acd2djsn478fffdfe756",
+        "X-RapidAPI-Host": "weatherbit-v1-mashape.p.rapidapi.com"
+    }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+
+    print(response.text)
+
+
+weather_data()
+
+
+
+url = "https://community-open-weather-map.p.rapidapi.com/weather"
+
+querystring = {"q":"London%2Cuk"}
+
+headers = {
+    'x-rapidapi-host': "community-open-weather-map.p.rapidapi.com",
+    'x-rapidapi-key': "[your rapidapi key]"
+    }
+
+response = requests.request("GET", url, headers=headers, params=querystring)
+
+print(response.text)
