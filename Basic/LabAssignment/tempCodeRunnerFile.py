@@ -1,3 +1,3 @@
-def test_make_lower():
-#     ret=qs8.make_lower(text)
-#     assert ret.lower() == True
+    # alower=[]
+    # for name in a:
+    #  alower.append(name.lower())
